@@ -1,0 +1,6 @@
+cd; cd /home/jose-pi/Projects/telering-pier/bot/src; pm2 start main.js --name "discord-bot"; cd;
+cd; pm2 stop "discord-bot"; pm2 delete "discord-bot"; pm2 save; cd;
+
+cd; cd /home/jose-pi/Projects/telering-pier; sudo pm2 start button.py --interpreter python3 --name "script-boton"; cd;
+cd; sudo pm2 stop "script-boton"; sudo pm2 delete "script-boton"; sudo pm2 save; cd;
+

@@ -1,0 +1,1 @@
+meter el bot en el server: https://discord.com/oauth2/authorize?client_id=&scope=bot
